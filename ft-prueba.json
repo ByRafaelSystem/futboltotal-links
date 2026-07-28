@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "🧪 PRUEBA — HLS",
+      "samples": [
+        {
+          "name": "América TV",
+          "type": "HLS",
+          "url": "https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8",
+          "icono": ""
+        },
+        {
+          "name": "Canal 26",
+          "type": "HLS",
+          "url": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
+          "icono": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png"
+        },
+        {
+          "name": "Argentinísima Satelital",
+          "type": "HLS",
+          "url": "https://stream1.sersat.com/hls/argentinisima.m3u8",
+          "icono": "https://i.imgur.com/xFgJawa.png"
+        },
+        {
+          "name": "Canal 7 Neuquén",
+          "type": "HLS",
+          "url": "https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8",
+          "icono": "https://i.ibb.co/BrvQsWm/C7neuquenlogo2023.png"
+        }
+      ]
+    },
+    {
+      "name": "🧪 PRUEBA — WEB",
+      "samples": [
+        {
+          "name": "Azteca Deportes (web)",
+          "type": "WEBVIEW",
+          "url": "https://www.tvporinternet2.com/azteca-deportes-en-vivo-por-internet.html",
+          "icono": "https://i.postimg.cc/ZW8kwJtv/aztecadeportes.png"
+        }
+      ]
+    }
+  ]
+}
