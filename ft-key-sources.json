@@ -3,7 +3,21 @@
   "_tipos": "tok = pagina estilo bestleague (url 'auto' la descubre sola) | flowtxt = texto con URL .mpd + kid:key en hex | catalogo = JSON formato ft-flow.json (acepta raiz lista y claves en hex o base64) | repo = sigue un repo de GitHub entero: lista sus .json/.txt de menos de 2 MB, los ordena por fecha del ultimo commit y usa los 6 mas nuevos QUE TRAIGAN CLAVES (lo que no es de Flow da 0 y se descarta solo).",
   "_por_que_repo": "monchotv/MonchoApps rota los nombres de sus archivos (sube uno nuevo y lo renombra), asi que apuntar a un archivo fijo se congela en silencio. Con tipo repo, el archivo nuevo entra solo. Si alguna vez ninguna fuente se actualiza en 3+ meses, el panel avisa.",
   "sources": [
-    { "name": "telelibre", "tipo": "tok", "url": "auto" },
-    { "name": "moncho", "tipo": "repo", "url": "monchotv/MonchoApps" }
-  ]
+    {
+      "name": "telelibre",
+      "tipo": "tok",
+      "url": "auto"
+    },
+    {
+      "name": "moncho",
+      "tipo": "repo",
+      "url": "monchotv/MonchoApps"
+    },
+    {
+      "name": "moncho-flow-fijo",
+      "tipo": "flowtxt",
+      "url": "https://raw.githubusercontent.com/monchotv/MonchoApps/main/flow.txt"
+    }
+  ],
+  "_nota_flow_txt": "flow.txt queda FIJO ademas del repo: es de abril y no entra en los 6 mas nuevos, pero es el unico que cubre 7 canales paraguayos (NANDUTI, UNION TV, A24 PY, AMERICA TV PY, LAPACHO TV, VENUS MEDIA, VS Sports). Va ULTIMO: solo aporta lo que ninguna otra fuente tiene. Si algun dia el repo lo borra, esta entrada da 0 y no molesta."
 }
