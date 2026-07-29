@@ -516,7 +516,7 @@
     {
      "name": "Eventos HD UY",
      "type": "CLEARKEY",
-     "icono": "",
+     "icono": "https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9wYWNrc2hvdF8xNDQweDEwODA.png",
      "drm_license_uri": "kid:SNDjTIeXxcKnQtJjCo+5dQ==,k:+10Sudj+voNuVnCr0APdyg==",
      "original_url": "https://cdn.cvattv.com.ar/live/c7eds/Eventos_HD_Uy/SA_Live_dash_enc/Eventos_HD_Uy.mpd",
      "headers": {
@@ -1725,7 +1725,7 @@
     {
      "name": "Telefe Neuquén",
      "type": "CLEARKEY",
-     "icono": "",
+     "icono": "https://app.femon.net/tv/banners/6978b5344eb020.85390981.png",
      "drm_license_uri": "kid:VYKLcouK/+bR1X0FACVkXQ==,k:isEe1tDMrqw/ghhBn2W7lA==",
      "original_url": "https://cdn.cvattv.com.ar/live/c4eds/Telefe_Neuquen/SA_Live_dash_enc/Telefe_Neuquen.mpd",
      "headers": {
@@ -2112,7 +2112,7 @@
     {
      "name": "DSports 2",
      "type": "CLEARKEY",
-     "icono": "",
+     "icono": "https://app.femon.net/tv/banners/69fdc67d88e581.36033201.png",
      "drm_license_uri": "kid:DdST+nRkBEKr11E5tnMH1g==,k:Mc9ClTktk5qX87YOvxzrRA==",
      "original_url": "https://cdn.cvattv.com.ar/live/c3eds/DSports_2/SA_Live_dash_enc/DSports_2.mpd",
      "headers": {
@@ -5206,7 +5206,7 @@
     {
      "name": "TV Chile",
      "type": "CLEARKEY",
-     "icono": "",
+     "icono": "https://raw.githubusercontent.com/ByRafaelSystem/futboltotal-links/main/logos/tv-chile.png",
      "drm_license_uri": "kid:xdDXbiSEQjWYj5JlYZ5f7A==,k:RGtxpt64BsbxKeJd6ZnQfA==",
      "original_url": "https://cdn.cvattv.com.ar/live/c6eds/Tv_Chile/SA_Live_dash_enc/Tv_Chile.mpd",
      "headers": {
