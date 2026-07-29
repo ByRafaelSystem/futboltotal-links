@@ -518,7 +518,12 @@
      "type": "CLEARKEY",
      "icono": "",
      "drm_license_uri": "kid:SNDjTIeXxcKnQtJjCo+5dQ==,k:+10Sudj+voNuVnCr0APdyg==",
-     "original_url": "https://cdn.cvattv.com.ar/live/c7eds/Eventos_HD_Uy/SA_Live_dash_enc/Eventos_HD_Uy.mpd"
+     "original_url": "https://cdn.cvattv.com.ar/live/c7eds/Eventos_HD_Uy/SA_Live_dash_enc/Eventos_HD_Uy.mpd",
+     "headers": {
+      "Origin": "https://portal.app.flow.com.ar",
+      "Referer": "https://portal.app.flow.com.ar/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+     }
     }
    ]
   },
@@ -1722,7 +1727,12 @@
      "type": "CLEARKEY",
      "icono": "",
      "drm_license_uri": "kid:VYKLcouK/+bR1X0FACVkXQ==,k:isEe1tDMrqw/ghhBn2W7lA==",
-     "original_url": "https://cdn.cvattv.com.ar/live/c4eds/Telefe_Neuquen/SA_Live_dash_enc/Telefe_Neuquen.mpd"
+     "original_url": "https://cdn.cvattv.com.ar/live/c4eds/Telefe_Neuquen/SA_Live_dash_enc/Telefe_Neuquen.mpd",
+     "headers": {
+      "Origin": "https://portal.app.flow.com.ar",
+      "Referer": "https://portal.app.flow.com.ar/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+     }
     }
    ]
   },
@@ -2104,7 +2114,12 @@
      "type": "CLEARKEY",
      "icono": "",
      "drm_license_uri": "kid:DdST+nRkBEKr11E5tnMH1g==,k:Mc9ClTktk5qX87YOvxzrRA==",
-     "original_url": "https://cdn.cvattv.com.ar/live/c3eds/DSports_2/SA_Live_dash_enc/DSports_2.mpd"
+     "original_url": "https://cdn.cvattv.com.ar/live/c3eds/DSports_2/SA_Live_dash_enc/DSports_2.mpd",
+     "headers": {
+      "Origin": "https://portal.app.flow.com.ar",
+      "Referer": "https://portal.app.flow.com.ar/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+     }
     }
    ]
   },
@@ -5193,7 +5208,12 @@
      "type": "CLEARKEY",
      "icono": "",
      "drm_license_uri": "kid:xdDXbiSEQjWYj5JlYZ5f7A==,k:RGtxpt64BsbxKeJd6ZnQfA==",
-     "original_url": "https://cdn.cvattv.com.ar/live/c6eds/Tv_Chile/SA_Live_dash_enc/Tv_Chile.mpd"
+     "original_url": "https://cdn.cvattv.com.ar/live/c6eds/Tv_Chile/SA_Live_dash_enc/Tv_Chile.mpd",
+     "headers": {
+      "Origin": "https://portal.app.flow.com.ar",
+      "Referer": "https://portal.app.flow.com.ar/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+     }
     }
    ]
   },
