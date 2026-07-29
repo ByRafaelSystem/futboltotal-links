@@ -1,0 +1,8 @@
+{
+  "_comentario": "De donde saca ADM FT las claves ClearKey para reparar el catalogo Flow. El ORDEN manda: gana la primera fuente que tenga el canal, asi que va primero la que se actualiza mas seguido. Se puede editar sin recompilar la app. tipo: tok (pagina estilo bestleague) | flowtxt (URL .mpd + kid:key en hex) | catalogo (JSON con formato ft-flow.json). url auto = se descubre solo.",
+  "sources": [
+    { "name": "telelibre", "tipo": "tok", "url": "auto" },
+    { "name": "moncho-flow", "tipo": "flowtxt", "url": "https://raw.githubusercontent.com/monchotv/MonchoApps/main/flow.txt" },
+    { "name": "moncho-catalogo", "tipo": "catalogo", "url": "https://raw.githubusercontent.com/monchotv/MonchoApps/main/canales.json" }
+  ]
+}
