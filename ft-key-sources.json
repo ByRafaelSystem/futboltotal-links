@@ -1,10 +1,9 @@
 {
-  "_comentario": "De donde saca ADM FT las claves ClearKey para reparar el catalogo Flow. El ORDEN manda: gana la primera fuente que tenga el canal, asi que va primero la que se actualiza mas seguido. Se puede editar sin recompilar la app. tipo: tok (pagina estilo bestleague) | flowtxt (URL .mpd + kid:key en hex) | catalogo (JSON con formato ft-flow.json). url auto = se descubre solo.",
-  "_moncho": "monchotv/MonchoApps rota los nombres de sus archivos (sube uno nuevo y lo renombra), asi que conviene apuntar a varios: si uno queda congelado, el panel lo muestra igual (cada fuente informa cuantas claves trajo). Fechas al 2026-07-29: original_url.json 11/07 · cani_decrypted.json 08/07 (raiz lista + clave en hex: el lector actual NO lo lee) · canales.json 24/06 · flow.txt 28/04.",
+  "_comentario": "De donde saca ADM FT las claves ClearKey para reparar el catalogo Flow. El ORDEN manda: gana la primera fuente que tenga el canal, asi que va primero la que se actualiza mas seguido. Se puede editar sin recompilar la app.",
+  "_tipos": "tok = pagina estilo bestleague (url 'auto' la descubre sola) | flowtxt = texto con URL .mpd + kid:key en hex | catalogo = JSON formato ft-flow.json (acepta raiz lista y claves en hex o base64) | repo = sigue un repo de GitHub entero: lista sus .json/.txt de menos de 2 MB, los ordena por fecha del ultimo commit y usa los 6 mas nuevos QUE TRAIGAN CLAVES (lo que no es de Flow da 0 y se descarta solo).",
+  "_por_que_repo": "monchotv/MonchoApps rota los nombres de sus archivos (sube uno nuevo y lo renombra), asi que apuntar a un archivo fijo se congela en silencio. Con tipo repo, el archivo nuevo entra solo. Si alguna vez ninguna fuente se actualiza en 3+ meses, el panel avisa.",
   "sources": [
     { "name": "telelibre", "tipo": "tok", "url": "auto" },
-    { "name": "moncho-original", "tipo": "catalogo", "url": "https://raw.githubusercontent.com/monchotv/MonchoApps/main/original_url.json" },
-    { "name": "moncho-flow", "tipo": "flowtxt", "url": "https://raw.githubusercontent.com/monchotv/MonchoApps/main/flow.txt" },
-    { "name": "moncho-catalogo", "tipo": "catalogo", "url": "https://raw.githubusercontent.com/monchotv/MonchoApps/main/canales.json" }
+    { "name": "moncho", "tipo": "repo", "url": "monchotv/MonchoApps" }
   ]
 }
