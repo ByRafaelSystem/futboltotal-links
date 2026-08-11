@@ -1,7 +1,17 @@
 {
   "lists": [
-    { "name": "Flow completo", "url": "https://raw.githubusercontent.com/ByRafaelSystem/futboltotal-links/main/ft-flow2.json" },
-    { "name": "🌎 Mundo TV", "url": "https://raw.githubusercontent.com/ByRafaelSystem/futboltotal-links/main/ft-mundotv.json" },
-    { "name": "⚽ Fútbol", "url": "https://jjfutbol3.lat/agenda_limpia.json", "kind": "futbol" }
+    {
+      "name": "Flow Premium",
+      "url": "https://raw.githubusercontent.com/ByRafaelSystem/futboltotal-links/main/ft-flow2.json"
+    },
+    {
+      "name": "🌎 Mundo TV",
+      "url": "https://raw.githubusercontent.com/ByRafaelSystem/futboltotal-links/main/ft-mundotv.json"
+    },
+    {
+      "name": "⚽ Fútbol",
+      "url": "https://jjfutbol3.lat/agenda_limpia.json",
+      "kind": "futbol"
+    }
   ]
 }
